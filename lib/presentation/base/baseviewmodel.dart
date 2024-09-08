@@ -1,4 +1,5 @@
 
+// @dart=3.0
 
 abstract class BaseViewModel extends BaseViewModelInputs with BaseViewModelOutputs{
     //shared variables and functions in order to be accessible through any model
@@ -11,6 +12,7 @@ abstract mixin class BaseViewModelInputs{
   void start(); //will be called while initiallization of view model
   void dispose(); //in order to throw away the viewmodel and die
 }
+
 
 abstract mixin class BaseViewModelOutputs{ //mixin is a class that will going to be extended in flutter many times
   //there is a explanation down for the mixin :) :)
