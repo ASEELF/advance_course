@@ -5,7 +5,7 @@
 
 import 'package:advanced_course/data/extensions.dart';
 
-import '../../domain/model.dart';
+import '../../domain/model/model.dart';
 import '../responses/responses.dart';
 
 

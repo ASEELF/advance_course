@@ -6,6 +6,8 @@ import'package:retrofit/http.dart';
 import 'package:dio/dio.dart';
 import '../../app/constant.dart';
 part 'app_api.g.dart';
+
+//the call of the api is happened here using dio , so when we want to handle the error of the response we check if the error from dio in error_handler.dart file
 @RestApi(baseUrl: Constant.baseUrl )
 abstract class AppServiceClient{
   factory AppServiceClient(

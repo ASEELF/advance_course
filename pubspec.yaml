@@ -38,7 +38,10 @@ dependencies:
   dio: ^5.7.0
   dartz:
   data_connection_checker_nulls:
-
+  pretty_dio_logger:
+  shared_preferences:
+  device_information:
+  device_info_plus:
 
 
   # The following adds the Cupertino Icons font to your application.
