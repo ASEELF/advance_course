@@ -19,7 +19,7 @@ publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 version: 1.0.0+1
 
 environment:
-  sdk: ^3.5.0
+  sdk: '>=2.17.0 <4.0.0'
 
 # Dependencies specify other packages that your package needs in order to work.
 # To automatically upgrade your package dependencies to the latest versions
@@ -31,6 +31,17 @@ dependencies:
   flutter:
     sdk: flutter
   flutter_svg: ^2.0.10+1
+  retrofit: ^4.4.0
+  logger:
+  json_annotation: ^4.9.0
+  analyzer:
+  dio: ^5.7.0
+  dartz:
+  data_connection_checker_nulls:
+  pretty_dio_logger:
+  shared_preferences:
+  device_information:
+  device_info_plus:
 
 
   # The following adds the Cupertino Icons font to your application.
@@ -47,6 +58,10 @@ dev_dependencies:
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
   flutter_lints: ^4.0.0
+  retrofit_generator: '>=8.0.0 <10.0.0'
+  build_runner: ^2.3.3
+  json_serializable: ^6.8.0
+
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
