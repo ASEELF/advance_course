@@ -133,6 +133,6 @@ class ResponseMessage{
 //this is internal status codes, made this class to handle the internal returning from the api while the call has been successful instantiated
 class ApiInternalStatus{
   static const int SUCCESS=0;
-  static const int FAILURE=0;
+  static const int FAILURE=1;
 
 }

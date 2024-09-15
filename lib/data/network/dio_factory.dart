@@ -1,6 +1,7 @@
 import 'package:advanced_course/app/app_prefs.dart';
 import 'package:advanced_course/app/constant.dart';
 import 'package:dio/dio.dart';
+import 'package:flutter/cupertino.dart';
 import 'package:pretty_dio_logger/pretty_dio_logger.dart';
 const String APPLICATION_JSON= "application/json";
 const String CONTENT_TYPE= "contect-type";
@@ -41,6 +42,7 @@ if(kReleaseMode){
     requestHeader: true,
     requestBody: true,
     responseHeader: true,
+    enabled: true, logPrint: (log) => debugPrint(log as String?)
   ));
 
 }
@@ -48,6 +50,7 @@ if(kReleaseMode){
 
   }
 }
+
 
 
 //in this file we are handling the dio factory class in order to use the dio instance in the app_api
